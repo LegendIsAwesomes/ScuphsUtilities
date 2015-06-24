@@ -10,7 +10,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 @CommandPermissions(source = SourceType.ANY, permission = "utils.notesforstaff")
-public class Command_notesforstaff extends BukkitCommand<ScuphsUtilities> {
+public class Command_staffnotes extends BukkitCommand<ScuphsUtilities> {
     
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
